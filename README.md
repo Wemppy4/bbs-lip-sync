@@ -3,6 +3,10 @@
 
 [VT](https://www.virustotal.com/gui/file/e1f087e381339ab8a82b48366162d3dd6bbb85e0bff45b430868eb63a7073e35 "VT")
 
+[RU](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#ru)
+
+[EN](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#en)
+
 ## RU
 ## Первые шаги
 Сначала переместите папку Mouth в каталог моделей BBS.
