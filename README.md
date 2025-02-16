@@ -14,7 +14,7 @@
 Затем удалите рот со своего скина и нарисуйте его отдельно. Скопируйте одну из форм рта и создайте свой вариант. Если рта нет изначально, пропустите этот шаг.
 
 ## Установка Python и зависемостей
-Для начала вам нужно установить Python. [Ссылка](https://www.python.org/ "Ссылка")
+Для начала вам нужно установить Python. [Ссылка](https://www.python.org/)
 
 Далее, вам нужно установить ffmpeg, но если вы используете BBS мод, то скорее всего он у вас уже установлен.
 
@@ -82,7 +82,7 @@ First, move the Mouth folder to the BBS model directory.
 Then remove the mouth from your skin and draw it separately. Copy one of the mouth shapes and create your own version. If there is no mouth originally, skip this step.
 
 ## Installing Python and dependencies
-First you need to install Python. [Link](https://www.python.org/ ‘Link’).
+First you need to install Python. [Link](https://www.python.org/).
 
 Next, you need to install ffmpeg, but if you are using the BBS mod, you probably already have it installed.
 
