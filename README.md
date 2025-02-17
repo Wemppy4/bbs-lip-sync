@@ -4,8 +4,9 @@
 [VT](https://www.virustotal.com/gui/file/e1f087e381339ab8a82b48366162d3dd6bbb85e0bff45b430868eb63a7073e35 "VT")
 
 [RU](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#ru)
-
 [EN](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#en)
+
+![logo](https://github.com/Wemppy4/bbs-lip-sync/blob/assets/image.png)
 
 ## RU
 ## Первые шаги
@@ -16,7 +17,14 @@
 ## Установка Python и зависемостей
 Для начала вам нужно установить Python. [Ссылка](https://www.python.org/)
 
+**Убедитесь что вы нажали вот эти галочки**
+
+![python](https://github.com/Wemppy4/bbs-lip-sync/blob/assets/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-17%20155744.png)
+
 Далее, вам нужно установить ffmpeg, но если вы используете BBS мод, то скорее всего он у вас уже установлен.
+
+**Убедитесь что ffmpeg есть в переменной окружения PATH** 
+[Как это сделать](https://chatgpt.com/share/67b34ff9-5f24-800b-9588-e677f17eb334)
 
 Далее, установите нужные библиотеки. Для этого напишите в коносоль поочерёдно следующие строки:
 
@@ -84,7 +92,14 @@ Then remove the mouth from your skin and draw it separately. Copy one of the mou
 ## Installing Python and dependencies
 First you need to install Python. [Link](https://www.python.org/).
 
+**Make sure you click these checkboxes**
+
+![python](https://github.com/Wemppy4/bbs-lip-sync/blob/assets/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-17%20155744.png)
+
 Next, you need to install ffmpeg, but if you are using the BBS mod, you probably already have it installed.
+
+**Make sure ffmpeg is in the PATH environment variable** 
+[How you can do this](https://chatgpt.com/share/67b34ff9-5f24-800b-9588-e677f17eb334)
 
 Next, install the libraries you need. To do this, write the following lines alternately in conosol:
 
