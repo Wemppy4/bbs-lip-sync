@@ -198,6 +198,10 @@ def main():
     # Generate and save the result string
     result_string = generate_result_string(lips_map)
     print(result_string)
+    
+    if not os.path.exists("output"):
+        os.makedirs("output")
+
     filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + ".json"
     with open(f"{OUTPUT_PATH}{filename}", "w", encoding='utf-8') as f:
         f.write(result_string)
