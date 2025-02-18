@@ -1,0 +1,457 @@
+{
+    "0/texture": {
+        "keyframes": [
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 0.0,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 5.4,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 7.066666666666666,
+                "value": "assets:models/Mouth/Pixel shapes/b.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 8.733333333333333,
+                "value": "assets:models/Mouth/Pixel shapes/a.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 10.4,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 12.066666666666666,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 13.733333333333334,
+                "value": "assets:models/Mouth/Pixel shapes/l.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 15.4,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 17.066666666666666,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 18.733333333333334,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 20.4,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 22.200000000000003,
+                "value": "assets:models/Mouth/Pixel shapes/f.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 23.700000000000003,
+                "value": "assets:models/Mouth/Pixel shapes/a.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 25.2,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 26.7,
+                "value": "assets:models/Mouth/Pixel shapes/b.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 28.2,
+                "value": "assets:models/Mouth/Pixel shapes/b.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 30.599999999999994,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 33.0,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 34.8,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 37.2,
+                "value": "assets:models/Mouth/Pixel shapes/b.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 38.7,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 40.199999999999996,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 42.15,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 44.1,
+                "value": "assets:models/Mouth/Pixel shapes/l.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 46.05,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 48.0,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 48.6,
+                "value": "assets:models/Mouth/Pixel shapes/b.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 50.099999999999994,
+                "value": "assets:models/Mouth/Pixel shapes/o.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 51.6,
+                "value": "assets:models/Mouth/Pixel shapes/l.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 53.10000000000001,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 54.6,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 56.099999999999994,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 57.599999999999994,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 58.97142857142857,
+                "value": "assets:models/Mouth/Pixel shapes/o.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 60.34285714285714,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 61.71428571428571,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 63.085714285714275,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 64.45714285714286,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 65.82857142857142,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 67.2,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 79.80000000000001,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 81.6,
+                "value": "assets:models/Mouth/Pixel shapes/b.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 83.4,
+                "value": "assets:models/Mouth/Pixel shapes/a.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 85.19999999999999,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 87.0,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 88.80000000000001,
+                "value": "assets:models/Mouth/Pixel shapes/l.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 90.60000000000001,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 92.4,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 94.2,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 96.0,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 97.2,
+                "value": "assets:models/Mouth/Pixel shapes/f.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 99.4,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 101.6,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 103.80000000000001,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 105.9,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 108.0,
+                "value": "assets:models/Mouth/Pixel shapes/l.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 110.10000000000002,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 112.2,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 113.4,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 115.44,
+                "value": "assets:models/Mouth/Pixel shapes/b.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 117.47999999999999,
+                "value": "assets:models/Mouth/Pixel shapes/a.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 119.52,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 121.55999999999999,
+                "value": "assets:models/Mouth/Pixel shapes/ee.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 123.6,
+                "value": "assets:models/Mouth/Pixel shapes/l.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 125.7,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 127.8,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 130.8,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 132.3,
+                "value": "assets:models/Mouth/Pixel shapes/u.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 133.8,
+                "value": "assets:models/Mouth/Pixel shapes/b.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 135.3,
+                "value": "assets:models/Mouth/Pixel shapes/ai.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 136.8,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 138.3,
+                "value": "assets:models/Mouth/Pixel shapes/a.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 139.8,
+                "value": "assets:models/Mouth/Pixel shapes/d.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 142.20000000000002,
+                "value": "assets:models/Mouth/Pixel shapes/a.png"
+            },
+            {
+                "duration": 0.0,
+                "interp": "linear",
+                "tick": 144.60000000000002,
+                "value": "assets:models/Mouth/Pixel shapes/empty.png"
+            }
+        ],
+        "type": "link"
+    }
+}

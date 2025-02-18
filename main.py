@@ -14,14 +14,12 @@ settings = {
     "model_path": config.get("Settings", "model_path"),
     "mouth_shapes_path": config.get("Settings", "mouth_shapes_path"),
     "output_path": config.get("Settings", "output_path"),
-    "mouth_model_index": config.get("Settings", "mouth_model_index")
 }
 
 # Constants
 AUDIO_FILE = "converted_audio.wav"
 MODEL_PATH = settings["model_path"]
 OUTPUT_PATH = settings["output_path"]
-MOUTH_INDEX_PATH = settings["mouth_model_index"]
 SAMPLE_RATES = [8000, 16000]
 
 def process_results(results: List[dict], file_duration: float, main_mouth_name: str) -> Dict[int, str]:
@@ -107,7 +105,7 @@ def generate_result_string(lips_map: Dict[int, str]) -> str:
         keyframes.append(keyframe)
 
     result = {
-        f"{MOUTH_INDEX_PATH}/texture": {
+        f"0/texture": {
             "keyframes": keyframes,
             "type": "link"
         }
@@ -203,7 +201,7 @@ def main():
     filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + ".json"
     with open(f"{OUTPUT_PATH}{filename}", "w", encoding='utf-8') as f:
         f.write(result_string)
-    print("Result saved to result.json")
+    print(f'Result saved to {OUTPUT_PATH}{filename}')
 
     # Закрываем файл после завершения работы
     wf.close()
