@@ -9,6 +9,8 @@
 [EN](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#en)
 
 ## RU
+**[Видео туториал](https://www.youtube.com/watch?v=jwFRUr9OyUI), спасибо за это @dinspal**
+
 ## Первые шаги
 Сначала переместите папку Mouth в каталог моделей BBS.
 
