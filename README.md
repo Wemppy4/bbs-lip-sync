@@ -1,5 +1,13 @@
+<div align="center">
+  
 # Lip sync for BBS
+
+</div>
+<div align="center">
 Автоматический лип синк для BBS / Automatic lip sync for BBS 
+
+<span></span>
+</div>
 
 ![logo](https://github.com/Wemppy4/bbs-lip-sync/blob/assets/image.png)
 
