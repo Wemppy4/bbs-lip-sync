@@ -1,8 +1,8 @@
 <div align="right">
   
-[RU](https://github.com/Wemppy4/bbs-lip-sync#ru)
+[RU](https://github.com/Wemppy4/bbs-lip-sync#RU)
 |
-[EN](https://github.com/Wemppy4/bbs-lip-sync#en)
+[EN](https://github.com/Wemppy4/bbs-lip-sync#EN)
 
 </div>
 
