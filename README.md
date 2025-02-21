@@ -19,6 +19,8 @@
 
 ![logo](https://github.com/Wemppy4/bbs-lip-sync/blob/assets/image.png)
 
+<div id="RU"></div>
+
 ![RU](https://github.com/Wemppy4/bbs-lip-sync/blob/ed17924fb47fa6957c0ee0695f5088106e0da9fa/wemoikenru.png)
 
 **[Видео туториал](https://www.youtube.com/watch?v=jwFRUr9OyUI), спасибо за это @dinspal**
