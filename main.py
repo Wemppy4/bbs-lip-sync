@@ -66,26 +66,24 @@ def get_mouth_image_for_letter(letter: str) -> str:
     Get the corresponding mouth image for a given letter.
     """
     letter_to_image = {
-        "а": "ai.png", "я": "ai.png",
         "б": "b.png", "п": "b.png", "м": "b.png",
         "в": "f.png", "ф": "f.png",
         "г": "ee.png", "к": "ee.png", "х": "ee.png", "и": "ee.png", "й": "ee.png",
         "ш": "ee.png", "щ": "ee.png", "ъ": "ee.png", "ы": "ee.png", "ь": "ee.png",
         "д": "d.png", "т": "d.png", "н": "d.png", "ж": "d.png", "з": "d.png",
         "с": "d.png", "ц": "d.png", "ч": "d.png",
-        "е": "a.png", "э": "a.png",
+        "е": "a.png", "э": "a.png", "а": "a.png", "я": "a.png",
         "ё": "o.png", "о": "o.png",
         "р": "l.png", "л": "l.png",
         "у": "u.png", "ю": "u.png",
 
-        "a": "a.png",
         "b": "b.png", "p": "b.png", "m": "b.png",
         "f": "f.png", "v": "f.png", 
         "g": "ee.png", "k": "ee.png", "h": "ee.png",
         "e": "ee.png","j": "ee.png", "y": "ee.png", "q": "ee.png",
         "s": "d.png", "t": "d.png", "n": "d.png", "z": "d.png",
         "c": "d.png", "d": "d.png", "x": "d.png",
-        "i": "a.png", 
+        "i": "a.png", "a": "a.png",
         "o": "o.png", 
         "l": "l.png", "r": "l.png",
         "u": "u.png", "w": "u.png",
