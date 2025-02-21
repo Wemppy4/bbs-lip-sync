@@ -1,8 +1,8 @@
 <div align="right">
   
-[RU](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#ru)
+[RU](https://github.com/Wemppy4/bbs-lip-sync#ru)
 |
-[EN](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#en)
+[EN](https://github.com/Wemppy4/bbs-lip-sync#en)
 
 </div>
 
@@ -95,6 +95,8 @@
 Благодарю великодушный DeepSeek и ChatGPT, которые помогли мне в создании данного скрипта.
 
 Благодарю добродушного МакХорса, который создал BBS мод!
+
+<div id="EN"></div>
 
 ![EN](https://github.com/Wemppy4/bbs-lip-sync/blob/ed17924fb47fa6957c0ee0695f5088106e0da9fa/wemoiken.png)
 
