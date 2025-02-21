@@ -54,9 +54,6 @@
 - **model_path** - Путь к модели. Если модель лежит в той же папке что и скрипт, просто напишите имя скрипта
 - **mouth_shapes_path** - Путь к изображениям рта. Если вы хотите использовать пиксельную версию, оставьте параметр по умолчанию.
 - **output_path** - Путь куда будет сохранятся выходной `.json` файл. (Для удобства можете написать папку пресетов кейфреймов BBS)
-- **mouth_model_index** - Индекс положения модели рта.
-
-  ![Изображение для большей ясности](https://github.com/Wemppy4/bbs-lip-sync/blob/assets/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-16%20194222.png)
 
 ## Использование скрипта
 
@@ -131,9 +128,6 @@ Let`s look at the parameters in the config:
 - **model_path** - The path to the model. If the model is in the same folder as the script, just write the name of the script
 - **mouth_shapes_path** - Path to the mouth images. If you want to use the pixel version, leave the default.
 - **output_path** - Path where the output `.json` file will be saved. (For convenience you can write a folder of BBS keyframe presets).
-- **mouth_model_index** - Index of mouth model position.
-
-  ![Image for clarity](https://github.com/Wemppy4/bbs-lip-sync/blob/assets/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-16%20194222.png)
 
 ## Using the script
 
