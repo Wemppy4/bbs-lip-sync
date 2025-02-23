@@ -51,13 +51,10 @@ def process_results(results: List[dict], file_duration: float, main_mouth_name: 
                         result_map[silence_start * 20 + 5] = f"{main_mouth_name}.png"
 
             # Map each letter to the corresponding mouth image
-            last_image = f"{main_mouth_name}.png"
             for i, letter in enumerate(text):
                 letter_time = start_time + (end_time - start_time) * (i / len(text))
                 image = get_mouth_image_for_letter(letter)
-                if image and image != last_image:
-                    result_map[letter_time * 20] = image
-                    last_image = image
+                result_map[letter_time * 20] = image
 
             previous_end_time = end_time
 
@@ -70,6 +67,7 @@ def process_results(results: List[dict], file_duration: float, main_mouth_name: 
         if silence_duration_ticks >= 5:
             silence_start = previous_end_time
             result_map[silence_start * 20 + 5] = f"{main_mouth_name}.png"
+        
 
     return result_map
 
