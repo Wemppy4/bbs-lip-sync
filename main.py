@@ -45,7 +45,10 @@ def process_results(results: List[dict], file_duration: float, main_mouth_name: 
                 # Если пауза длится больше 5 тиков, добавляем молчание
                 if silence_duration >= 5:
                     silence_start = previous_end_time
-                    result_map[silence_start * 20] = f"{main_mouth_name}.png"
+                    if previous_end_time == 0:
+                        result_map[silence_start * 20] = f"{main_mouth_name}.png"
+                    else:
+                        result_map[silence_start * 20 + 5] = f"{main_mouth_name}.png"
 
             # Map each letter to the corresponding mouth image
             last_image = f"{main_mouth_name}.png"
@@ -60,8 +63,13 @@ def process_results(results: List[dict], file_duration: float, main_mouth_name: 
 
     # Check for silence at the end of the file
     if previous_end_time < file_duration:
-        silence_start = previous_end_time
-        result_map[silence_start * 20] = f"{main_mouth_name}.png"
+        silence_duration = file_duration - previous_end_time
+        silence_duration_ticks = silence_duration * 20
+
+        # Если пауза длится больше 5 тиков, добавляем молчание
+        if silence_duration_ticks >= 5:
+            silence_start = previous_end_time
+            result_map[silence_start * 20 + 5] = f"{main_mouth_name}.png"
 
     return result_map
 
@@ -186,14 +194,6 @@ def main():
     results = read_audio_file(wf, rec)
     final_result = json.loads(rec.FinalResult())
     results.append(final_result)
-    
-    # Print the recognized words
-    print("\nRecognized words:")
-    for result in results:
-        if "result" in result:
-            for word in result["result"]:
-                print(word["word"], end=" ")
-    print()
 
     # Process the results and generate the lips map
     file_duration = wf.getnframes() / wf.getframerate()
@@ -205,6 +205,14 @@ def main():
     
     if not os.path.exists("output"):
         os.makedirs("output")
+    
+    # Print the recognized words
+    print("\nRecognized words:")
+    for result in results:
+        if "result" in result:
+            for word in result["result"]:
+                print(word["word"], end=" ")
+    print()
 
     filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + ".json"
     with open(f"{OUTPUT_PATH}{filename}", "w", encoding='utf-8') as f:
