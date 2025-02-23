@@ -1,14 +1,30 @@
+<div align="right">
+  
+[RU](https://github.com/Wemppy4/bbs-lip-sync#RU)
+|
+[EN](https://github.com/Wemppy4/bbs-lip-sync#EN)
+
+</div>
+
+<div align="center">
+  
 # Lip sync for BBS
+
+</div>
+<div align="center">
 Автоматический лип синк для BBS / Automatic lip sync for BBS 
+
+<span></span>
+</div>
 
 ![logo](https://github.com/Wemppy4/bbs-lip-sync/blob/assets/image.png)
 
-[VT](https://www.virustotal.com/gui/file/e1f087e381339ab8a82b48366162d3dd6bbb85e0bff45b430868eb63a7073e35 "VT")
+<div id="RU"></div>
 
-[RU](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#ru)
-[EN](https://github.com/Wemppy4/bbs-lip-sync/blob/main/README.md#en)
+------------
 
-## RU
+![RU](https://github.com/Wemppy4/bbs-lip-sync/blob/ed17924fb47fa6957c0ee0695f5088106e0da9fa/wemoikenru.png)
+
 **[Видео туториал](https://www.youtube.com/watch?v=jwFRUr9OyUI), спасибо за это @dinspal**
 
 ## Первые шаги
@@ -82,7 +98,12 @@
 
 Благодарю добродушного МакХорса, который создал BBS мод!
 
-## EN
+<div id="EN"></div>
+
+------------
+
+![EN](https://github.com/Wemppy4/bbs-lip-sync/blob/ed17924fb47fa6957c0ee0695f5088106e0da9fa/wemoiken.png)
+
 The translation may not be accurate in some places. I do not speak English, so I translate via DeepL.
 
 ## First Steps
