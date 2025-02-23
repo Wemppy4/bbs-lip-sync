@@ -40,8 +40,12 @@ def process_results(results: List[dict], file_duration: float, main_mouth_name: 
 
             # Check for silence before the current word
             if start_time > previous_end_time:
-                silence_start = previous_end_time
-                result_map[silence_start * 20] = f"{main_mouth_name}.png"
+                silence_duration = (start_time - previous_end_time) * 20
+
+                # Если пауза длится больше 5 тиков, добавляем молчание
+                if silence_duration >= 5:
+                    silence_start = previous_end_time
+                    result_map[silence_start * 20] = f"{main_mouth_name}.png"
 
             # Map each letter to the corresponding mouth image
             last_image = f"{main_mouth_name}.png"
