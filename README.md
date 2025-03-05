@@ -65,7 +65,7 @@
 **Убедитесь что ffmpeg есть в переменной окружения PATH** 
 [Как это сделать](https://chatgpt.com/share/67b34ff9-5f24-800b-9588-e677f17eb334)
 
-Далее, установите нужные библиотеки. Для этого напишите в коносоль поочерёдно следующие строки:
+Далее, установите нужные библиотеки. Для этого напишите в консоль поочерёдно следующие строки:
 
 `pip install vosk`
 
@@ -173,7 +173,7 @@ Next, you need to install ffmpeg, but if you are using the BBS mod, you probably
 **Make sure ffmpeg is in the PATH environment variable** 
 [How you can do this](https://chatgpt.com/share/67b34ff9-5f24-800b-9588-e677f17eb334)
 
-Next, install the libraries you need. To do this, write the following lines alternately in conosol:
+Next, install the libraries you need. To do this, write the following lines alternately in **cmd**:
 
 `pip install vosk`
 
