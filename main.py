@@ -33,7 +33,6 @@ def process_results(
             end_time_ticks = word["end"] * 20
             text = word["word"]
 
-            print(f"Обработка слова: '{text}' с {start_time_ticks} по {end_time_ticks}")
             # Обработка пауз между словами
             if start_time_ticks > previous_end_time:
                 silence_duration = start_time_ticks - previous_end_time
@@ -110,7 +109,7 @@ def main():
         f.write(json_output)
 
     # Вывод текста в консоль
-    print(f"{words[0]['text'] if words else 'Нет распознанного текста.'}")
+    print(f"Text: {words[0]['text'] if words else 'Нет распознанного текста.'}")
 
 if __name__ == "__main__":
     main()
