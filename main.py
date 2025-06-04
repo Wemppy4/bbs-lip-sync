@@ -68,6 +68,13 @@ def process_results(
     return dict(sorted(result_map.items()))
 
 def main():
+    # Создание папок, если их нет
+    os.makedirs("temp_audio", exist_ok=True)
+    os.makedirs("output", exist_ok=True)
+    os.makedirs("vosk_models", exist_ok=True)
+    os.makedirs("bbs_models", exist_ok=True)
+    os.makedirs("json_files", exist_ok=True)
+
     # CLI аргументы
     parser = argparse.ArgumentParser()
     parser.add_argument("--smooth", action="store_true")
@@ -97,7 +104,6 @@ def main():
     output_path = config["output_path"]
     if not output_path:
         output_path = "output"
-        os.makedirs("output", exist_ok=True)
 
     filename = os.path.join(output_path, f"{config["language"]}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json")
     with open(filename, "w", encoding="utf-8") as f:
