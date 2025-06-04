@@ -1,5 +1,6 @@
 converted_audio.wav
 audio.wav
 model-small-ru
-output
-config.ini
+model-small-en
+model-small-de
+model-small-tr

@@ -9,6 +9,7 @@ from typing import Optional
 SUPPORTED_AUDIO_FORMATS = [("Audio Files", "*.wav *.mp3 *.ogg *.flac")]
 OUTPUT_AUDIO_NAME = "audio.wav"
 CONVERTED_AUDIO_NAME = "converted_audio.wav"
+AUDIO_PATH = "temp_audio/"
 
 def select_audio_file() -> Optional[str]:
     """
@@ -68,12 +69,12 @@ def select_and_convert_audio():
         return
 
     # Copy the file
-    output_path = os.path.join(os.getcwd(), OUTPUT_AUDIO_NAME)
+    output_path = os.path.join(os.getcwd(), AUDIO_PATH+OUTPUT_AUDIO_NAME)
     if not copy_audio_file(file_path, output_path):
         return
 
     # Convert the file
-    converted_path = os.path.join(os.getcwd(), CONVERTED_AUDIO_NAME)
+    converted_path = os.path.join(os.getcwd(), AUDIO_PATH+CONVERTED_AUDIO_NAME)
     convert_audio_file(output_path, converted_path)
 
 def main():

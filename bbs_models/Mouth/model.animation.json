@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 0.4,
+			"bones": {
+				"anchor": {
+					"scale": {
+						"0.0": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1": {
+							"post": ["joystick.r_x >= 0.1 ? (joystick.r_x+1) : 1", 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.3": {
+							"post": [1, "joystick.r_y >= 0.1 ? (joystick.r_y+1.5) : 1", 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"bone": {
+					"scale": {
+						"0.0": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1": {
+							"post": ["joystick.l_trigger >= 0 ? (joystick.l_trigger+1) : 1", 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.3": {
+							"post": [1, "joystick.l_trigger >= 0 ? (joystick.l_trigger+1) : 1", 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		}
+	}
+}
