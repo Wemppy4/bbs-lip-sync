@@ -169,16 +169,6 @@ Next, install `ffmpeg`, but if you're using the BBS mod, it is likely already in
 **Make sure `ffmpeg` is in your PATH environment variable**  
 [How to do this](https://chatgpt.com/share/67b34ff9-5f24-800b-9588-e677f17eb334)
 
-Now, install the necessary libraries. Type the following commands one by one in your terminal:
-
-`pip install vosk`
-
-`pip install wave`
-
-`pip install configparser`
-
-If you are **NOT** using Windows, you also need to install `tkinter`
-
 ## Downloading VOSK Models
 Download a model from [this website](https://alphacephei.com/vosk/models)
 
