@@ -1,4 +1,6 @@
 @echo off
+pip install -r requirements.txt
+
 python open_audio.py
 
 if %errorlevel% equ 0 (

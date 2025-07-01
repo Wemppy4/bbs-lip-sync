@@ -89,10 +89,9 @@ def main():
     idle_image = poses["idle"]["pose"] if args.smooth else input("Основная текстура рта (например, Wemppy): ") + ".png"
 
     # Обработка аудио
-    wf = open_audio_file("temp_audio\converted_audio.wav", [8000, 16000])
-    words = transcribe_audio(wf, config["model_path"])
-    duration = wf.getnframes() / wf.getframerate()
-    wf.close()
+    audio = open_audio_file("temp_audio\converted_audio.wav", [8000, 16000])
+    words = transcribe_audio(audio, config["model_path"])
+    duration = audio.duration_seconds
 
     # Генерация анимации
     lips_map = process_results(words, duration, mouth_map, "smooth" if args.smooth else "standard", idle_image)
@@ -104,7 +103,7 @@ def main():
     if not output_path:
         output_path = "output"
 
-    filename = os.path.join(output_path, f"{config["language"]}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json")
+    filename = os.path.join(output_path, f"{config['language']}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json")
     with open(filename, "w", encoding="utf-8") as f:
         f.write(json_output)
 

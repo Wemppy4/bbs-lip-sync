@@ -67,16 +67,6 @@
 **Убедитесь что ffmpeg есть в переменной окружения PATH** 
 [Как это сделать](https://chatgpt.com/share/67b34ff9-5f24-800b-9588-e677f17eb334)
 
-Далее, установите нужные библиотеки. Для этого напишите в консоль поочерёдно следующие строки:
-
-`pip install vosk`
-
-`pip install wave`
-
-`pip install configparser`
-
-Если вы **НЕ** используете Windows, вам нужно будет установить еще `tkinter`
-
 ## Скачивание моделей VOSK
 Скачайте модельку на [этом сайте](https://alphacephei.com/vosk/models)
 
